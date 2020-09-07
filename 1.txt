@@ -1,0 +1,469 @@
+Compiled from "Lab_1.java"
+public class Lab_1 {
+  public Lab_1();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+       3: ldc           #13                 // String 545V \nGruba Anastasia \nVariant 4
+       5: invokevirtual #15                 // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+       8: bipush        112
+      10: newarray       char
+      12: dup
+      13: iconst_0
+      14: bipush        32
+      16: castore
+      17: dup
+      18: iconst_1
+      19: bipush        32
+      21: castore
+      22: dup
+      23: iconst_2
+      24: bipush        42
+      26: castore
+      27: dup
+      28: iconst_3
+      29: bipush        42
+      31: castore
+      32: dup
+      33: iconst_4
+      34: bipush        32
+      36: castore
+      37: dup
+      38: iconst_5
+      39: bipush        32
+      41: castore
+      42: dup
+      43: bipush        6
+      45: bipush        32
+      47: castore
+      48: dup
+      49: bipush        7
+      51: bipush        42
+      53: castore
+      54: dup
+      55: bipush        8
+      57: bipush        42
+      59: castore
+      60: dup
+      61: bipush        9
+      63: bipush        32
+      65: castore
+      66: dup
+      67: bipush        10
+      69: bipush        32
+      71: castore
+      72: dup
+      73: bipush        11
+      75: bipush        32
+      77: castore
+      78: dup
+      79: bipush        12
+      81: bipush        42
+      83: castore
+      84: dup
+      85: bipush        13
+      87: bipush        42
+      89: castore
+      90: dup
+      91: bipush        14
+      93: bipush        32
+      95: castore
+      96: dup
+      97: bipush        15
+      99: bipush        10
+     101: castore
+     102: dup
+     103: bipush        16
+     105: bipush        32
+     107: castore
+     108: dup
+     109: bipush        17
+     111: bipush        42
+     113: castore
+     114: dup
+     115: bipush        18
+     117: bipush        32
+     119: castore
+     120: dup
+     121: bipush        19
+     123: bipush        32
+     125: castore
+     126: dup
+     127: bipush        20
+     129: bipush        42
+     131: castore
+     132: dup
+     133: bipush        21
+     135: bipush        32
+     137: castore
+     138: dup
+     139: bipush        22
+     141: bipush        42
+     143: castore
+     144: dup
+     145: bipush        23
+     147: bipush        32
+     149: castore
+     150: dup
+     151: bipush        24
+     153: bipush        32
+     155: castore
+     156: dup
+     157: bipush        25
+     159: bipush        42
+     161: castore
+     162: dup
+     163: bipush        26
+     165: bipush        32
+     167: castore
+     168: dup
+     169: bipush        27
+     171: bipush        42
+     173: castore
+     174: dup
+     175: bipush        28
+     177: bipush        32
+     179: castore
+     180: dup
+     181: bipush        29
+     183: bipush        32
+     185: castore
+     186: dup
+     187: bipush        30
+     189: bipush        42
+     191: castore
+     192: dup
+     193: bipush        31
+     195: bipush        10
+     197: castore
+     198: dup
+     199: bipush        32
+     201: bipush        32
+     203: castore
+     204: dup
+     205: bipush        33
+     207: bipush        42
+     209: castore
+     210: dup
+     211: bipush        34
+     213: bipush        32
+     215: castore
+     216: dup
+     217: bipush        35
+     219: bipush        32
+     221: castore
+     222: dup
+     223: bipush        36
+     225: bipush        42
+     227: castore
+     228: dup
+     229: bipush        37
+     231: bipush        32
+     233: castore
+     234: dup
+     235: bipush        38
+     237: bipush        42
+     239: castore
+     240: dup
+     241: bipush        39
+     243: bipush        32
+     245: castore
+     246: dup
+     247: bipush        40
+     249: bipush        32
+     251: castore
+     252: dup
+     253: bipush        41
+     255: bipush        42
+     257: castore
+     258: dup
+     259: bipush        42
+     261: bipush        32
+     263: castore
+     264: dup
+     265: bipush        43
+     267: bipush        42
+     269: castore
+     270: dup
+     271: bipush        44
+     273: bipush        32
+     275: castore
+     276: dup
+     277: bipush        45
+     279: bipush        32
+     281: castore
+     282: dup
+     283: bipush        46
+     285: bipush        42
+     287: castore
+     288: dup
+     289: bipush        47
+     291: bipush        10
+     293: castore
+     294: dup
+     295: bipush        48
+     297: bipush        32
+     299: castore
+     300: dup
+     301: bipush        49
+     303: bipush        42
+     305: castore
+     306: dup
+     307: bipush        50
+     309: bipush        32
+     311: castore
+     312: dup
+     313: bipush        51
+     315: bipush        32
+     317: castore
+     318: dup
+     319: bipush        52
+     321: bipush        32
+     323: castore
+     324: dup
+     325: bipush        53
+     327: bipush        32
+     329: castore
+     330: dup
+     331: bipush        54
+     333: bipush        42
+     335: castore
+     336: dup
+     337: bipush        55
+     339: bipush        42
+     341: castore
+     342: dup
+     343: bipush        56
+     345: bipush        42
+     347: castore
+     348: dup
+     349: bipush        57
+     351: bipush        42
+     353: castore
+     354: dup
+     355: bipush        58
+     357: bipush        32
+     359: castore
+     360: dup
+     361: bipush        59
+     363: bipush        42
+     365: castore
+     366: dup
+     367: bipush        60
+     369: bipush        32
+     371: castore
+     372: dup
+     373: bipush        61
+     375: bipush        32
+     377: castore
+     378: dup
+     379: bipush        62
+     381: bipush        32
+     383: castore
+     384: dup
+     385: bipush        63
+     387: bipush        10
+     389: castore
+     390: dup
+     391: bipush        64
+     393: bipush        32
+     395: castore
+     396: dup
+     397: bipush        65
+     399: bipush        42
+     401: castore
+     402: dup
+     403: bipush        66
+     405: bipush        32
+     407: castore
+     408: dup
+     409: bipush        67
+     411: bipush        42
+     413: castore
+     414: dup
+     415: bipush        68
+     417: bipush        42
+     419: castore
+     420: dup
+     421: bipush        69
+     423: bipush        32
+     425: castore
+     426: dup
+     427: bipush        70
+     429: bipush        42
+     431: castore
+     432: dup
+     433: bipush        71
+     435: bipush        32
+     437: castore
+     438: dup
+     439: bipush        72
+     441: bipush        32
+     443: castore
+     444: dup
+     445: bipush        73
+     447: bipush        42
+     449: castore
+     450: dup
+     451: bipush        74
+     453: bipush        32
+     455: castore
+     456: dup
+     457: bipush        75
+     459: bipush        42
+     461: castore
+     462: dup
+     463: bipush        76
+     465: bipush        32
+     467: castore
+     468: dup
+     469: bipush        77
+     471: bipush        42
+     473: castore
+     474: dup
+     475: bipush        78
+     477: bipush        42
+     479: castore
+     480: dup
+     481: bipush        79
+     483: bipush        10
+     485: castore
+     486: dup
+     487: bipush        80
+     489: bipush        32
+     491: castore
+     492: dup
+     493: bipush        81
+     495: bipush        42
+     497: castore
+     498: dup
+     499: bipush        82
+     501: bipush        32
+     503: castore
+     504: dup
+     505: bipush        83
+     507: bipush        32
+     509: castore
+     510: dup
+     511: bipush        84
+     513: bipush        42
+     515: castore
+     516: dup
+     517: bipush        85
+     519: bipush        32
+     521: castore
+     522: dup
+     523: bipush        86
+     525: bipush        42
+     527: castore
+     528: dup
+     529: bipush        87
+     531: bipush        32
+     533: castore
+     534: dup
+     535: bipush        88
+     537: bipush        32
+     539: castore
+     540: dup
+     541: bipush        89
+     543: bipush        42
+     545: castore
+     546: dup
+     547: bipush        90
+     549: bipush        32
+     551: castore
+     552: dup
+     553: bipush        91
+     555: bipush        42
+     557: castore
+     558: dup
+     559: bipush        92
+     561: bipush        32
+     563: castore
+     564: dup
+     565: bipush        93
+     567: bipush        32
+     569: castore
+     570: dup
+     571: bipush        94
+     573: bipush        42
+     575: castore
+     576: dup
+     577: bipush        95
+     579: bipush        10
+     581: castore
+     582: dup
+     583: bipush        96
+     585: bipush        32
+     587: castore
+     588: dup
+     589: bipush        97
+     591: bipush        32
+     593: castore
+     594: dup
+     595: bipush        98
+     597: bipush        42
+     599: castore
+     600: dup
+     601: bipush        99
+     603: bipush        42
+     605: castore
+     606: dup
+     607: bipush        100
+     609: bipush        32
+     611: castore
+     612: dup
+     613: bipush        101
+     615: bipush        32
+     617: castore
+     618: dup
+     619: bipush        102
+     621: bipush        42
+     623: castore
+     624: dup
+     625: bipush        103
+     627: bipush        32
+     629: castore
+     630: dup
+     631: bipush        104
+     633: bipush        32
+     635: castore
+     636: dup
+     637: bipush        105
+     639: bipush        42
+     641: castore
+     642: dup
+     643: bipush        106
+     645: bipush        32
+     647: castore
+     648: dup
+     649: bipush        107
+     651: bipush        32
+     653: castore
+     654: dup
+     655: bipush        108
+     657: bipush        42
+     659: castore
+     660: dup
+     661: bipush        109
+     663: bipush        42
+     665: castore
+     666: dup
+     667: bipush        110
+     669: bipush        32
+     671: castore
+     672: dup
+     673: bipush        111
+     675: bipush        10
+     677: castore
+     678: astore_1
+     679: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+     682: aload_1
+     683: invokevirtual #21                 // Method java/io/PrintStream.println:([C)V
+     686: return
+}
