@@ -1,0 +1,29 @@
+
+public class DSP {
+	public  static int Ds(){
+	    
+    return 0;
+    }
+	    
+	    
+    public static int Es(){
+    
+    return 0;
+    }
+    
+    public static int Ps(){
+    
+    return 0;
+    }
+    
+    
+    public static int ms(){
+    
+    return 0;
+    }
+    
+    public static int ds(){
+    
+    return 0;
+    }
+}

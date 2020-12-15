@@ -1,0 +1,43 @@
+package lab3;
+
+import java.io.*;
+import java.util.ArrayList;
+
+public class Program {
+	public static void main (String args[ ]) throws IOException
+	{
+		int i;
+		FileInputStream fin;
+		
+                ArrayList<Integer> list = new ArrayList<Integer>(); 
+              
+		try {
+			try {
+				fin = new FileInputStream("C:\\\\Users\\\\naste\\\\Desktop\\\\4.bin");
+			} catch (FileNotFoundException e) {
+				System.out.println ("Input file not found");
+				return;
+			}
+			
+		} catch (ArrayIndexOutOfBoundsException e) {
+			System.out.println ("Usage: CopyFile original target");
+			return;
+		}
+		try {
+			do {
+				i = fin.read();
+				if(i !=- 1){
+                                list.add(i);
+     
+                              DSPLip.Ds(list);
+                                }
+                                
+			} while (i != -1);
+		} catch (IOException e) {
+			System.out.println ("File error");
+		}
+                System.out.println (list);
+		fin.close();
+		
+	}
+}
